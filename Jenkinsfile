@@ -12,7 +12,7 @@ pipeline {
         stage('Test') { 
             steps {
                              sh 'echo mynnn test 123' 
-                             sh 'slee 10'
+                             sh 'sleep 10'
 
             }
         }
