@@ -1,5 +1,8 @@
 pipeline {
     agent any 
+    options {
+        timeout( time: 1, unit:'SECONDS')
+    }
     stages {
         stage('Build') { 
             steps {
@@ -9,6 +12,7 @@ pipeline {
         stage('Test') { 
             steps {
                              sh 'echo my test 123' 
+                             sh 'slee 10'
 
             }
         }
