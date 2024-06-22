@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-               sh 'echo my build 123 ' 
+               sh 'echo my build fdfsdfk ' 
             }
         }
         stage('Test') { 
