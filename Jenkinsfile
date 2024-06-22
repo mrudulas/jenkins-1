@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                             sh 'echo my test 123' 
+                             sh 'echo mynnn test 123' 
                              sh 'slee 10'
 
             }
